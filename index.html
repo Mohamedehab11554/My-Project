@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>X O Game</title>
+    <link rel="websiet icon" href="/media/new-logo.webp">
+</head>
+<body>
+    
+<div class="hea">
+    <h1>E/Mohamed Ehab</h1>
+</div>
+<div class="score">
+    <p id="xWins">X Wins: 0</p>
+    <p id="oWins">O Wins: 0</p>
+</div>
+
+<div class="game">
+    <div class="title"><span>X O</span> Game</div>
+    <div class="square" id="item1" onclick="game(this.id)"></div>
+    <div class="square" id="item2" onclick="game(this.id)"></div>
+    <div class="square" id="item3" onclick="game(this.id)"></div>
+    <div class="square" id="item4" onclick="game(this.id)"></div>
+    <div class="square" id="item5" onclick="game(this.id)"></div>
+    <div class="square" id="item6" onclick="game(this.id)"></div>
+    <div class="square" id="item7" onclick="game(this.id)"></div>
+    <div class="square" id="item8" onclick="game(this.id)"></div>
+    <div class="square" id="item9" onclick="game(this.id)"></div>
+    <div class="button-container">
+        <button id="resetButton" onclick="resetGame()">Start New Game</button>
+        <button id="restartButton" onclick="restartGame()">Restart Game</button>
+    </div>
+</div>
+
+<script src="Js/Node.js"></script>
+</body>
+</html>
